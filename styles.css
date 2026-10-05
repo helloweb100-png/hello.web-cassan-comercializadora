@@ -518,8 +518,8 @@ p { margin: 0; }
 }
 .story__num { font: 700 .8rem var(--f-mono); letter-spacing: .24em; color: var(--aqua); }
 .story__h { font-size: clamp(1.7rem, 5.4vw, 2.6rem); letter-spacing: -.035em; }
-.story__fig { display: grid; place-items: center; height: 250px; margin: .3rem 0; border-radius: var(--r-md); background: radial-gradient(70% 70% at 50% 42%, rgba(95, 240, 208, .24), transparent 72%); }
-.story__img { max-height: 92%; width: auto; filter: drop-shadow(0 22px 22px rgba(0, 0, 0, .45)); }
+.story__fig { display: flex; align-items: center; justify-content: center; flex: none; height: 250px; margin: .3rem 0; border-radius: var(--r-md); background: radial-gradient(70% 70% at 50% 42%, rgba(95, 240, 208, .24), transparent 72%); }
+.story__img { height: auto; width: auto; max-width: 100%; max-height: 230px; object-fit: contain; filter: drop-shadow(0 22px 22px rgba(0, 0, 0, .45)); }
 .story__panel p { color: var(--on-dark-2); max-width: 34rem; }
 .story__panel p strong { color: #fff; }
 .story__tags { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; }
